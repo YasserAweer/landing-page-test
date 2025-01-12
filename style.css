@@ -42,8 +42,14 @@ hr {
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
+    height: 250px;
 }
-
+.hi p{
+  font-size: xx-large;
+}
+#hitit{
+  font-size: 50px;
+}
 .cards {
   display: flex;
   width: 100%;
@@ -137,4 +143,36 @@ hr {
   .header-right {
     float: none;
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #11111b;
+  color: #a6adc8;
+  text-align: center;
+}
+.cat{
+  width: 300px;
+  margin-top: 30px;
+  /* background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); */
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+   -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+}
+.top{
+  text-align: center;
+  
+}
+.centered {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../landing-page-test/icons/1544x1544_circle.png);
+  font-size: xx-large;
+}
+.contact-cont{
+  display: flex;
 }
