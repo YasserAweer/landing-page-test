@@ -17,15 +17,7 @@ hr {
   align-items: stretch;
   justify-content: stretch;
 }
-.eader {
-  width: 100%;
-  height: 40px;
-  flex-grow: 0;
-  margin: 0;
-  background-color: #585b70;
-  display: flex;
-  flex-direction: ;
-}
+/* first section style  */
 .firstSector {
   flex-grow: 2;
   /* height: 500px; */
@@ -36,20 +28,26 @@ hr {
   margin: 40px;
   /* background-color: #585b70; */
 }
-
-.hi{
-    background: linear-gradient(66deg, rgba(49,50,68,1) 48%, rgba(69,71,90,1) 100%);
-    border-radius: 20px;
-    padding: 15px;
-    margin-right: 100px;
-    height: 250px;
+/* hi styles */
+.hi {
+  background: linear-gradient(
+    66deg,
+    rgba(49, 50, 68, 1) 48%,
+    rgba(69, 71, 90, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 100px;
+  height: 250px;
+  border: 5px solid #7287fd55;
 }
-.hi p{
+.hi p {
   font-size: xx-large;
 }
-#hitit{
+#hitit {
   font-size: 50px;
 }
+/* cards styles */
 .cards {
   display: flex;
   width: 100%;
@@ -58,14 +56,31 @@ hr {
   justify-content: space-evenly;
   margin: 20px;
 }
-
+/* card colors */
 .card {
-  border: 4px solid #181825;
+  border: 4px dashed #181825;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 22px;
+  padding: 4px;
+}
+.card1 {
+  border-color: #f38ba8;
+}
+
+.card2 {
+  border-color: #f9e2af;
+}
+
+.card3 {
+  border-color: #a6e3a1;
+}
+
+.card4 {
+  border-color: #b485ec;
 }
 .icon-text {
   text-align: center;
@@ -78,7 +93,7 @@ hr {
   padding: 4px;
   max-width: 150px;
 }
-
+/* quote styles */
 .quote {
   display: flex;
   gap: 20px;
@@ -87,11 +102,12 @@ hr {
 
 .quotepng {
   height: 50px;
+  margin-left: 10px;
 }
-
+/* Header styles */
 .header {
   overflow: hidden;
-  background-color: #6c7086;
+  background-color: #45475a;
   padding: 20px 10px;
   border-radius: 20px;
   margin-top: 10px;
@@ -144,7 +160,7 @@ hr {
     float: none;
   }
 }
-
+/* footer styles  */
 .footer {
   position: fixed;
   left: 0;
@@ -154,16 +170,24 @@ hr {
   color: #a6adc8;
   text-align: center;
 }
-.cat{
+/* the contact page  */
+.cat {
   width: 300px;
   margin-top: 30px;
   /* background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); */
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
-   -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.65) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
-.top{
+.top {
   text-align: center;
-  
 }
 .centered {
   position: absolute;
@@ -173,6 +197,50 @@ hr {
   background-image: url(../landing-page-test/icons/1544x1544_circle.png);
   font-size: xx-large;
 }
-.contact-cont{
+.contact-cont {
+  display: flex;
+}
+
+.location {
+  width: 50%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #69a2fd;
+  color: white;
+}
+.fa-instagram {
+  background: #aa76eb;
+  color: white;
+}
+.fa-reddit {
+  background: #fd9b5e;
+  color: white;
+}
+.accounts {
+  display: flex;
+  flex-direction: column;
+}
+.accounts p {
+  text-align: center;
+}
+.conts {
   display: flex;
 }
